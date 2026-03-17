@@ -175,10 +175,11 @@ height:90px;
 
 /* SONG */
 
+
 .song{
 padding:80px;
 text-align:center;
-background-image: url(https://images.pexels.com/photos/3377405/pexels-photo-3377405.jpeg?cs=srgb&dl=pexels-elina-araja-1743227-3377405.jpg&fm=jpg);
+background-image: url();
 background-size: cover;
 background-position: center;
 color:white;
@@ -258,8 +259,26 @@ height:45px;
 }
 
 .copyright{
-text-align:center;
+text-align:left;
 padding:10px;
 background:#0d2b4d;
 font-size:13px;
+}
+.copyright ul {
+    float: right;
+    text-decoration:underline; 
+    text-decoration:none;
+display:flex;
+gap:25px;
+color:white;
+list-style:none;
+font-size:14px;
+}
+.copyright li a{
+float: right;
+color: white;
+font-weight: 500;
+}
+.copyright  ul li a:hover{
+color: #ffd166;
 }
