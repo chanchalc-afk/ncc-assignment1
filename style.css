@@ -129,7 +129,7 @@ color:#2a6f97;
 
 .events{
 position: relative;
-padding: 60px;
+padding: 100px;
 text-align: center;
 }
 
@@ -138,6 +138,7 @@ display: flex;
 gap: 30px;
 overflow: hidden;
 scroll-behavior: smooth;
+justify-content: center;
 }
 
 .arrow{
@@ -160,29 +161,38 @@ left: 10px;
 .right{
 right: 10px;
 }
+.section-btn{
+background:#0d2b4d;
+color:white;
+border:none;
+padding:8px 20px;
+border-radius:22px;
+margin:10px auto;
+}
 
 /* LOGO */
 
 .logo-section{
-text-align:center;
-padding:30px;
+    
+text-align: left;
+padding:100px;
 background:white;
+margin-left: 0px;
 }
 
 .logo-section img{
-height:90px;
+height:150px;
 }
 
 /* SONG */
 
-
 .song{
 padding:80px;
 text-align:center;
-background-image: url();
+background-image: url(background.png.jpeg);
 background-size: cover;
 background-position: center;
-color:white;
+color:rgb(0, 0, 0);
 }
 
 .song-text{
@@ -281,4 +291,9 @@ font-weight: 500;
 }
 .copyright  ul li a:hover{
 color: #ffd166;
+}
+footer ul li img{
+    width: 15px;
+    height: auto;
+    border-radius: 5px;
 }
